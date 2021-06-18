@@ -1,0 +1,188 @@
+
+
+body { 
+  background-color: rgb(0,0,0,0.5); 
+background: linear-gradient(-135deg, #c850c0, #4158d0);
+  color: black; 
+  text-align: center;
+border-radius:25% ;
+} 
+
+  
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+} 
+
+.container1 { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}  
+.heading { 
+  margin-bottom: 20px; 
+  font-size: 3rem; 
+  color: white; 
+} 
+  
+.header { 
+  display: flex; 
+  align-items: center; 
+} 
+  
+.timer, .errors, .accuracy, 
+.cpm, .wpm { 
+  background-color:#5390F5; 
+  height: 60px; 
+  width: 70px; 
+  margin: 8px; 
+  padding: 12px; 
+  border-radius: 20%; 
+  box-shadow: black 5px 8px 5px; 
+} 
+  
+.cpm, .wpm  { 
+  display: none; 
+} 
+  
+.header_text { 
+  text-transform: uppercase; 
+  font-size: 0.6rem; 
+  font-weight: 600; 
+} 
+  
+.curr_time, .curr_errors, 
+.curr_accuracy, .curr_cpm, 
+.curr_wpm { 
+  font-size: 2.75rem; 
+} 
+  
+.quote { 
+  background-color: #fcfbcc; 
+  font-size: 1.5rem; 
+  margin: 10px; 
+  padding: 25px; 
+  box-shadow: black 5px 8px 5px; 
+border-radius:15px 15px 15px 15px ;
+} 
+  
+.input_area { 
+  background-color: #fcfbcc; 
+  height: 200px; 
+  width: 50%; 
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  margin: 15px; 
+  padding: 20px; 
+  border: 0px; 
+  box-shadow: black 5px 8px 5px; 
+border-radius:15px 15px 15px 15px ;
+} 
+  
+.restart_btn { 
+  display: none; 
+  background-color: #45f7c5; 
+  font-size: 1.5rem; 
+  padding: 10px; 
+  border: 0px; 
+  box-shadow: black 5px 8px 5px; 
+} 
+  
+.incorrect_char { 
+  color: red; 
+  text-decoration: underline; 
+} 
+  
+.correct_char { 
+  color: blue; 
+} 
+grad {
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+section {
+	background: linear-gradient(-135deg, #c850c0, #4158d0);
+	width:100%;
+	align:justify-content;
+	font-size:150%;
+}
+.Heading { 
+  margin-bottom: 20px; 
+  font-size: 3rem; 
+  color: white; 
+  text-align: center;
+} 
+
+
+/* NAVIGATION */
+nav {
+  width: 100%
+  margin: 0 auto;
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+
+/* By Dominik Biedebach @domobch */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+/* Blend */
+nav.blend ul li a {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1;
+}
+nav.blend ul li a:hover {
+  color: #fff;
+}
+nav.blend ul li a:before,
+nav.blend ul li a:after {
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: #FF0000;
+  transition: all .5s;
+  margin: auto;
+  content: '.';
+  color: transparent;
+  z-index: -1;
+  opacity: 0.75;
+}
+nav.blend ul li a:before {
+  left: 0;
+}
+nav.blend ul li a:after {
+  right: 0;
+}
+
+nav.blend ul li a:hover:after,
+nav.blend ul li a:hover:before {
+  width: 100%;
+}

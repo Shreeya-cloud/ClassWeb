@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Form </title>
+    <!-- bootstrap cdn  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+
+        #logOut {
+            float: right;
+        }
+        
+        .container {
+            border: 5px solid #000;
+            background-color: grey;
+            width: 1000px;
+            height: 600px;
+        }
+        
+        .demo {
+            display: inline;
+        }
+		
+		#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #FF0000;
+  padding: 12px;
+  
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row"> <button id="logOut" class="btn btn-danger">Log Out</button></div>
+        <div>
+            <label for="regNo" class="col-sm-3 control-label"> Register Number</label>
+            <div class="col-sm-5">
+                <input type="number" id="regNo" class="form-control">
+                <button class="btn btn-primary">Show</button>
+                <button class="btn btn-danger">Reset</button>
+            </div>
+        </div>
+		<div class="table-container">
+        <table class="table" id="customers">
+            
+                <tr>
+                    <th scope="col">Register No</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Score</th>
+                </tr>
+            
+            
+                <tr>
+					<td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+					<td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <<td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                   <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td>6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td>7</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				
+            
+        </table>
+		</div>
+    </div>
+</body>
+</html>
+
